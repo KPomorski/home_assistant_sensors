@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e1a8d5-015c-4b80-8fb7-0141309c839d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_assistant_sensors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sensors/work_status_OLED/OLEDdisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sensors/work_status_OLED/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sensors/work_status_OLED/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sensors/work_status_OLED/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +43,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666914262887</updated>
-      <workItem from="1666914264099" duration="259000" />
+      <workItem from="1666914264099" duration="489000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit, add work status OLED sensor">
+      <created>1666914621718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666914621718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit, add work status OLED sensor" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit, add work status OLED sensor" />
   </component>
 </project>
