@@ -20,7 +20,7 @@ displayio.release_displays()
 oled_reset = board.D0
 
 # Use for I2C
-i2c = busio.I2C(board.SCL1,board.SDA1)
+i2c = busio.I2C(board.SCL1, board.SDA1)
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=oled_reset)
 
 WIDTH = 128
