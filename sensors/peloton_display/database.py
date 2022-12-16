@@ -34,3 +34,15 @@ class DBHelper:
         self.__connect__()
         self.cur.execute(sql)
         self.__disconnect__()
+
+    def insert(self, sql, val):
+        self.__connect__()
+        try:
+            # inserting the values into the table
+            self.cur.execute(sql, val)
+            # commit the transaction
+            self.con.commit()
+        except:
+            self.con.rollback()
+        print(self.cur.rowcount, "record inserted!")
+        self.con.close()
