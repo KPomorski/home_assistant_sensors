@@ -1,4 +1,3 @@
-import pylotoncycle
 import json
 import datetime
 from database import DBHelper
@@ -111,7 +110,6 @@ class PelotonMetric:
                       self.values,
                       self.time
                       )
-            print(values)
             self.db.insert(query, values)
         else:
             print(f"Metric for workout {self.workoutid} already exists.")
