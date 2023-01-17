@@ -15,8 +15,7 @@ token = os.getenv("HA_BEARER_TOKEN")
 
 pin = digitalio.DigitalInOut(board.GP15)
 pin.direction = digitalio.Direction.INPUT
-pin.pull = digitalio.Pull.UP
-button = Button(pin)
+pin.pull = digitalio.Pull.UPe
 
 #  connect to SSID
 wifi.radio.connect(os.getenv('WIFI_SSID'), os.getenv('WIFI_PASSWORD'))
